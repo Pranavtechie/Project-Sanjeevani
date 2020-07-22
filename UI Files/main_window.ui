@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OtherWindow</class>
+ <widget class="QMainWindow" name="OtherWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>821</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dash Board</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icon.ico</normaloff>../icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(247, 231, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="heading_1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>641</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.019, y1:0.317, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.198058 rgba(235, 196, 61, 255), stop:0.685437 rgba(235, 196, 61, 255), stop:0.98 rgba(255, 134, 126, 255), stop:1 rgba(0, 0, 0, 0));
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.259414 rgba(235, 196, 61, 255), stop:0.828452 rgba(235, 196, 61, 255), stop:1 rgba(255, 165, 159, 255));</string>
+    </property>
+    <property name="text">
+     <string>                  SAINIK SCHOOL KALIKIRI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>641</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.019, y1:0.317, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.198058 rgba(235, 196, 61, 255), stop:0.685437 rgba(235, 196, 61, 255), stop:0.98 rgba(255, 134, 126, 255), stop:1 rgba(0, 0, 0, 0));
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.259414 rgba(235, 196, 61, 255), stop:0.828452 rgba(235, 196, 61, 255), stop:1 rgba(255, 165, 159, 255));</string>
+    </property>
+    <property name="text">
+     <string>                                SANJEEVANI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cadets_corner">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(109, 6, 6, 255), stop:0.196833 rgba(169, 29, 29, 255), stop:0.80404 rgba(169, 29, 29, 255), stop:0.993939 rgba(109, 6, 6, 255));
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>       Cadets' Corner</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="management_corner">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>140</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(109, 6, 6, 255), stop:0.196833 rgba(169, 29, 29, 255), stop:0.80404 rgba(169, 29, 29, 255), stop:0.993939 rgba(109, 6, 6, 255));
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>     Management Corner</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="manage_exemptions">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>200</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>MANAGE EXEMPTIONS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="admit_cadet">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>250</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>ADMIT CADET</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="discharge_cadet">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>300</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>DISCHARGE CADET</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_admit/img_admit.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_discharge_cadet/img_discharge_cadet .png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="view_cadet_info">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>350</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>VIEW CADET INFO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_edit_cadet_info/img_edit_cadet_info.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="issue_medicine">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>400</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>ISSUE MEDICINE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_issue_medicine/img_issue_medicine.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="have_checkup">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>450</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>HAVE CHECKUP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>450</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_checkup/img_checkup.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>400</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_export_cadet_list/img_export_cadet_list.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>300</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_add_medicine/img_add_medicine.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_medicine">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>350</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>DELETE MEDICINE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="view_admissions">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>250</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>VIEW ADMISSIONS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_medicine">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>300</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>ADD MEDICINE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>250</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_view_admission/img_view_admissions.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="view_medicine_list">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>200</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>VIEW MEDICINE LIST</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>200</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_view_medicine/img_view_medicine.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="export_medicine_data">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>450</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>EXPORT MEDINCINE DATA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="export_cadets_data">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>400</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0.192727 rgba(251, 224, 18, 255), stop:0.394545 rgba(204, 170, 10, 255), stop:0.570909 rgba(245, 229, 9, 255), stop:0.710909 rgba(231, 195, 57, 255), stop:0.82 rgba(245, 229, 9, 255), stop:0.927273 rgba(238, 230, 80, 255));</string>
+    </property>
+    <property name="text">
+     <string>EXPORT CADETS DATA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>450</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_export_medicine_list/img_export_medicine_list.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>350</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_delete_medicine/img_delete_medicine.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="separator">
+    <property name="geometry">
+     <rect>
+      <x>383</x>
+      <y>130</y>
+      <width>20</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_injured/img_injured.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sanjeevani_logo">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>0</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_sanjeevani/img_sanjeevani.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="school_logo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img_school_logo/img_school_logo.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>sanjeevani_logo</zorder>
+   <zorder>heading_1</zorder>
+   <zorder>heading_2</zorder>
+   <zorder>cadets_corner</zorder>
+   <zorder>management_corner</zorder>
+   <zorder>manage_exemptions</zorder>
+   <zorder>admit_cadet</zorder>
+   <zorder>discharge_cadet</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>view_cadet_info</zorder>
+   <zorder>label_10</zorder>
+   <zorder>issue_medicine</zorder>
+   <zorder>label_11</zorder>
+   <zorder>have_checkup</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_14</zorder>
+   <zorder>delete_medicine</zorder>
+   <zorder>view_admissions</zorder>
+   <zorder>add_medicine</zorder>
+   <zorder>label_15</zorder>
+   <zorder>view_medicine_list</zorder>
+   <zorder>label_16</zorder>
+   <zorder>export_medicine_data</zorder>
+   <zorder>export_cadets_data</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_18</zorder>
+   <zorder>separator</zorder>
+   <zorder>label_19</zorder>
+   <zorder>school_logo</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/img_school_logo.qrc"/>
+  <include location="../images/img_export_medicine_list.qrc"/>
+  <include location="../images/img_export_cadet_list.qrc"/>
+  <include location="../images/img_delete_medicine.qrc"/>
+  <include location="../images/img_add_medicine.qrc"/>
+  <include location="../images/img_view_admissions.qrc"/>
+  <include location="../images/img_view_medicine.qrc"/>
+  <include location="../images/img_edit_cadet_info.qrc"/>
+  <include location="../images/img_checkup.qrc"/>
+  <include location="../images/img_issue_medicine.qrc"/>
+  <include location="../images/img_discharge_cadet.qrc"/>
+  <include location="../images/img_admit.qrc"/>
+  <include location="../images/img_injured.qrc"/>
+  <include location="../images/img_sanjeevani.qrc"/>
+ </resources>
+ <connections/>
+</ui>
