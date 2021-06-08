@@ -1,0 +1,4 @@
+#ffff00 is used for Heading 
+#fa8fbd for cadets corner
+#e1db8c for the main page button 
+#f7e7ff background color of the gui(247,231,255)

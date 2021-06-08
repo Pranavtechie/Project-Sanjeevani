@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>admitcadetimage.png</file>
+  </qresource>
+</RCC>

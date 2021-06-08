@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Sanjeevani.png</file>
+    <file>Sanjeevani.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>Sanjeevani.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>Sanjeevani.png</file>
+  </qresource>
+</RCC>
